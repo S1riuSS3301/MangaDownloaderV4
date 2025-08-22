@@ -1,0 +1,18 @@
+app:
+  downloads_dir: Downloads
+  concurrency: 6          # количество одновременных скачиваний
+  request_timeout: 25     # таймаут HTTP-запросов (сек)
+  retry:
+    attempts: 4
+    base_delay: 1.0
+    max_delay: 8.0
+
+network:
+  headers:
+    user_agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+    referer: https://mangapoisk.io/
+  cookie_file: /path/to/your/cookie.json   # оставьте пустым или укажите путь к JSON с cookies
+
+logging:
+  level: INFO
+  dir: logs

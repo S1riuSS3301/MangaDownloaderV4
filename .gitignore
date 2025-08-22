@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+.env
+
+# OS/Jupyter
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+
+# Project outputs
+Downloads/
+archives/
+logs/
+
+# Configs (local only)
+config/config.yaml
+
+# Tools/cache
+.cache/
